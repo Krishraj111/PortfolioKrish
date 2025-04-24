@@ -1,0 +1,293 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+ <body> 
+    
+<div id="header">
+    <div class="container">
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="#header" style="--i:1" class="nav-link"><b>Home</b></a></li>
+                <li><a href="#about" style="--i:2" class="nav-link"><b>About</b></a></li>
+                <li><a href="#skills" style="--i:3" class="nav-link"><b>Skills</b></a></li>
+                <li><a href="#services" style="--i:4" class="nav-link"><b>Certificates</b></a></li>
+                <li><a href="#project" style="--i:5" class="nav-link"><b>Projects</b></a></li>
+                <li><a href="#contact" style="--i:6" class="nav-link"><b>Contact</b></a></li>
+                <i class='bx bx-x-circle' style="color: rgb(252, 252, 252);" onclick="closemenu()"></i>
+            </ul>
+            <i class='bx bx-menu' style='color:#36c8d3' onclick="openmenu()"></i>
+        </nav>
+        
+        <div class="header-text">
+        <p><i><span class="para1" style="color: #1babbe;"></span></i></p>
+        <h1>Hello, I am <br><span>Krish Raj</h1></span>
+        <h2>from Motihari,Bihar<br> And I'm a <span class="text"></span></h2>
+            <a href="#about" class="btn-box">More About Me</a>
+        </div>
+    
+    </div>
+</div> 
+
+
+
+
+<!--------about------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Formal_photo.png" id="profile-img">
+                <a href="https://drive.google.com/file/d/1UWTONl99jHxA6phmnPBKcpsmGfzEOQOm/view?usp=sharing"  target="_blank" class="resume"><i class='bx bxs-show'></i>    View Resume</a>
+                <a href="mailto:krishraj9021@gmail.com" class="connect" title="Connect"><i class='bx bxs-message-rounded-dots'></i></i>  Connect</a>
+                
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p><span class="para"></span></p>
+                <div class="tab-titles">
+          
+                    <p class="tab-links" onclick="opentab('education')" style="--i:7">🎓<b>Education</b></p>
+                    <p class="tab-links" onclick="opentab('certifications')" style="--i:8">📜<b>Languages</b></p>
+                    <p class="tab-links" onclick="opentab('internship')" style="--i:9">💼<b>Internship</b></p>
+                    <p class="tab-links" onclick="opentab('achievement')" style="--i:10">🏆<b>Achievements</b></p>
+                </div> 
+                
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span><b>• Graduation [B.Tech(Bachelor of Technology) in Computer Science and Engineering(CSE)]</b> </span><br>Graduating in 2026<br>Lovely Professional University (LPU), Punjab, India<br>Percentage - 7.6 CGPA</li>
+                        <li><span><b>• Intermediate(12<sup>th</sup>) [CBSE]</b></span><br>2020 - 2022<br>Delhi Public School  Birgunj,Nepal<br>Percentage - 75% <a href="https://drive.google.com/file/d/1UKLYcSKMehQ97H02SKbiCuXbGJUAmrQK/view?usp=sharing" target="_blank" style="color: #47c2ff;">(12<sup>th</sup> Class Certificate)</a></li>
+                        <li><span><b>• 10<sup>th</sup> Class [CBSE]</b></span><br>2019 - 2020<br>Delhi Public School  Motihari,Bihar<br>Percentage - 87.2% <a href="https://drive.google.com/file/d/1ULgn4pHubE2F9L1ZCIglgfESmp45LAHi/view?usp=sharing" target="_blank" style="color: #47c2ff;">(10<sup>th</sup> Class Certificate)</a></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="certifications">
+                    <ul>
+                        <li><span><b>• Hindi</b></span><br>Native or bilingual proficiency</li>
+                        <li><span><b>• English</b></span><br>Full professional proficiency</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="internship" style="line-height: 1.5;">
+                    <ul>
+                        <li><span><b>1. Community Intern</b></span><br>Bachpan Craft NGO — Motihari, Bihar<br>June 2023 – July 2023<br><a href="https://drive.google.com/file/d/1ULnzX6QRvyFLiBPUgWw551PeE2jKVaLT/view?usp=sharing" target="_blank" style="color: #47c2ff;">Internship Certificate</a><br>
+                            • Participated in outreach activities, including organizing donation drives and distributing essentials to needy families.
+                            <br>
+                            • Enhanced leadership, teamwork, and communication skills while working in a socially impactful environment.
+                            <br>
+                            •  Received certification recognizing contribution to technical and community development.</li>
+                    </ul>
+                    <ul>
+                        <li><span><b>2. Linux Social | DSA Training</b></span><br>Linux Socials<br>June 2024 – July 2024<br><a href="https://drive.google.com/file/d/19RsVPmxKJ56mGIb-OaqI51jO3pExUW2j/view?usp=sharing" target="_blank" style="color: #47c2ff;">Internship Certificate</a><br>
+                            • Completed an intensive two-month training focused on Data Structures and Algorithms.
+                            <br>
+                            • Solved complex problems using C++ and optimized solutions for efficiency.
+                            <br>
+                            •  Developed problem-solving skills through hands-on coding assignments and real-world scenarios.</li>
+                    </ul>
+                   
+                </div>
+                <div class="tab-contents" id="achievement" style="line-height: 1.3;">
+
+                        <br>• Ethical Hacking NPTEL,IIT Kharagpur <a href="https://drive.google.com/file/d/1EIhmWOt8UIdDuFqBW4PkJ-m2lBlWbPA5/view?usp=sharing" target="_blank" style="color: #47c2ff;"> (Certificate)</a><br>
+                            • Hacker Rank: 4 star on Problem solving.<br>
+                            • Neocolab: Solved 200+ question of neocolab DSA and CPP. –certified<br>
+                            • One among Dean’s top 50 % students at university:
+                            For good academic performance and extracurricular activities at university.<a href="https://drive.google.com/file/d/1nahUMmPHqtOj13IymOvyLTCPjoXg8Sln/view?usp=sharing" target="_blank" style="color: #47c2ff;"> (Certificate)</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Skills Section -->
+<div id="skills">
+    <h1 class="title">My Skills</h1>
+    <section class="skills-container">
+        <!-- Technical Skills -->
+        <div class="skills-category">
+            <h2 class="skills-heading">Technical Skills</h2>
+            <div class="skills-list">
+                <div class="skill-box c-plus-plus" style="--i:11"><i class='bx bxl-c-plus-plus'></i> C++</div>
+                <div class="skill-box java" style="--i:12"><i class='bx bxl-java'></i> Java</div>
+                <div class="skill-box python" style="--i:13"><i class='bx bxl-python'></i> Python</div>
+                <div class="skill-box html" style="--i:14"><i class='bx bxl-html5'></i> HTML</div>
+                <div class="skill-box css" style="--i:15"><i class='bx bxl-css3'></i> CSS</div>
+                <div class="skill-box javascript" style="--i:16"><i class='bx bxl-javascript'></i> JavaScript</div>
+                <div class="skill-box git" style="--i:17"><i class='bx bxl-git'></i> Git</div>
+                <div class="skill-box github" style="--i:18"><i class='bx bxl-github'></i> GitHub</div>
+                <div class="skill-box ml" style="--i:19"><i class='bx bx-brain'></i> Node js</div>
+                <div class="skill-box nlp" style="--i:20"><i class='bx bx-chat'></i> React</div>
+                <div class="skill-box dl" style="--i:21"><i class='bx bx-chip'></i> PHP</div>
+                <div class="skill-box cv" style="--i:22"><i class='bx bx-image'></i> javascript</div>
+                <div class="skill-box dsa" style="--i:23"><i class='bx bx-code-alt'></i> Data Structures & Algorithms</div>
+                <div class="skill-box sql" style="--i:24"><i class='bx bx-data'></i> SQL Database</div>
+                <div class="skill-box docker" style="--i:25"><i class='bx bxl-docker'></i> DevOps Tools</div>
+            </div>
+        </div>
+        <!-- Soft Skills -->
+        <div class="skills-category">
+            <h2 class="skills-heading">Soft Skills</h2>
+            <div class="skills-list"> 
+                <div class="skill-box communication" style="--i:26">Communication</div>
+                <div class="skill-box thinking" style="--i:27">Creative Thinking</div>
+                <div class="skill-box problem-solving" style="--i:28">Problem Solving</div>
+                <div class="skill-box teamwork" style="--i:29">Team Work</div>
+                <div class="skill-box leadership" style="--i:30">Leadership</div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+
+<!-----------Certifications------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Certificates</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <a href="https://drive.google.com/file/d/1EIhmWOt8UIdDuFqBW4PkJ-m2lBlWbPA5/view?usp=sharing" target="_blank" style="color: #ffffff;"> <h2>Ethical Hacking</h2></a>
+                <p>NPTEL [October 2024]</p>
+                <!-- <a href="https://github.com/praveenkumar949/POS-Tagging-and-Spellchecking-with-Hybrid-Model_nlp"></a> -->
+            </div>
+            <div>
+                <i class="fa-solid fa-hexagon-nodes"></i>
+                <a href="https://drive.google.com/file/d/1wJYKtrmcX2tj0aH1enjavj2kJZ3VX9Zy/view?usp=sharing" target="_blank" style="color: #ffffff;"> <h2>Mastering Data Structures &
+                    Algorithms using C and C++</h2></a>
+                <p>Udemy [Dec 2023]</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <a href="https://drive.google.com/file/d/1GRopp5G7mD-FFg1D8Dz3JbryiOjsDWI2/view?usp=sharing" target="_blank" style="color: #ffffff;"> <h2>Dynamic Programming, Greedy Algorithms</h2></a>
+                <p>Coursera [May 2024]</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <a href="https://drive.google.com/file/d/1WIYAkjTN8I_VgTan0C5WRNBHOMcy90IL/view?usp=sharing" target="_blank" style="color: #ffffff;"> <h2>Generative AI with Large Language Models</h2></a>
+                <p>Coursera [March 2024]</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <a href="https://drive.google.com/file/d/18xP2uJpiY_B2OlwtHJvX7kQZXgeaHNPM/view?usp=sharing" target="_blank" style="color: #ffffff;"> <h2>IBM DevOps and Software Engineering</h2></a>
+                <p>Coursera [Dec 2024]</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <a href="https://drive.google.com/file/d/16E6er641o9IHhLOk5Io7m7F2iDMS392K/view?usp=sharing" target="_blank" style="color: #ffffff;"> <h2>Server side JavaScript with Node.js</h2></a>
+                <p>Coursera  [Mar 2024]</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <a href="https://drive.google.com/file/d/1FHlH95XnmslOgYwDcnCICqPcOhy8RBow/view?usp=sharing" target="_blank" style="color: #ffffff;"> <h2>HTML, CSS, and Javascript for Web Developers</h2></a>
+                <p>Coursera  [Mar 2024]</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <a href="https://drive.google.com/file/d/1fRgw4XN9HGj1yfR8OWokziuQXw-OTux3/view?usp=sharing" target="_blank" style="color: #ffffff;"> <h2>SQL for Data Science</h2></a>
+                <p>Great Learning  [Feb 2023]</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Projects-->
+
+<section>
+    <div id="portf" id="project">
+        <div class="main-text" id="project">
+            <h1 class="title1">My Projects</h1>
+            <div class="portf-content">
+                <div class="row" style="--i:1">
+                    <img src="images/Project1.png">
+                    <div class="layer">
+                        <h5>Dalilo Bakery Website (MERN)</h5>
+                        <h6>September 2024 – November 2024</h6>
+                        <p>Responsive MERN stack bakery website with product search, cart, and secure payment features.</p>
+                        <a href="https://bakery-react-phi.vercel.app/"><i class='bx bx-link-external' style="color: rgb(255, 255, 255);"></i></a>
+                    </div>
+                </div>
+                <div class="row" style="--i:2">
+                    <img src="images/Project 2.png">
+                    <div class="layer">
+                        <h5>Phonebook Management System</h5>
+                        <h6>November 2024 – December 2024</h6>
+                        <p>A full-featured phonebook management system using the MERN stack, integrating sorting, searching, and real-time contact suggestions with DSA algorithms. </p>
+                        <a href="https://phonebook-khaki.vercel.app/"><i class='bx bx-link-external' style="color: rgb(255, 255, 255);"></i></a>
+                    </div>
+                </div>
+                <div class="row"style="--i:3">
+                    <img src="images/heart_disesase.webp">
+                    <div class="layer">
+                        <h5>Machine Learning</h5>
+                        <h6>September 2024 - October 2024</h6>
+                        <p>Heart Disease Prediction Using machine learning models</p>
+                        <a href="https://github.com/praveenkumar949/heart_disease_prediction_ml"><i class='bx bx-link-external' style="color: rgb(255, 255, 255);"></i></a>
+                    </div>
+                </div>
+                <div class="row" style="--i:4">
+                    <img src="images/yogapose.jpg">
+                    <div class="layer">
+                        <h5>Machine Learning</h5>
+                        <p>Yoga Pose Prediction using different machine learning models</p>
+                        <a href="https://github.com/praveenkumar949/yoga_pose_prediction_ml"><i class='bx bx-link-external' style="color: rgb(255, 255, 255);"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- contact-->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title1">Contact Me</h1> 
+                <p>
+                    <a href="mailto:krishraj9021@gmail.com" style="color:#ffffff; text-decoration:none;" onclick="return confirm('Do you want to send an email to krishraj9021@gmail.com?');"  title="Send Mail">
+                      <i class='bx bxl-gmail' style='color:#2bd8e8'></i> krishraj9021@gmail.com
+                    </a>
+                  </p>
+                  <p>
+                    <a href="tel:+917079727763" style="color:#ffffff; text-decoration:none;" onclick="return confirm('Do you want to call +91 7079727763?');" title="Make Call">
+                      <i class='bx bxs-phone' style='color:#2bd8e8'></i> +91 7079727763
+                    </a>
+                  </p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/krish-raj-34a803252/" class="linkedin" style="--i:1" ><i class='bx bxl-linkedin-square' title="LinkeIn"></i></a>
+                    <a href="https://github.com/Krishraj111" class="github" style="--i:2"><i class='bx bxl-github' title="GitHub"></i></a>
+                    <a href="https://leetcode.com/u/krishraj111/" class="leetcode" style="--i:3"><i class='bx bx-code-alt' title="LeetCode"></i></a>
+                    <a href="https://www.instagram.com/krishraj111/" class="instagram" style="--i:4"><i class='bx bxl-instagram' title="Instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100014251479734&sk=about" class="facebook" style="--i:5"><i class='bx bxl-facebook-circle' title="Facebook"></i></a>
+                    <a href="https://x.com/Krishraj111" class="twitter" style="--i:6"><i class='bx bxl-twitter' title="Twitter"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="Email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn-box btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+            
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Krish Raj 2025 All rights reserved. This is myPortofolio website</p>
+    </div>
+</div>
+<script src="main.js"></script>
+
+</body>
+</html>
