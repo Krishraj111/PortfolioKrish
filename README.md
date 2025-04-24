@@ -20,6 +20,6 @@ This is a responsive personal portfolio website created using HTML, CSS, and Jav
 + **Projects:** Portfolio showcasing completed projects.  
 + **Contact:** A form to send messages directly.
 
-### Portfolio Website Link : https://praveenkumar949.github.io/Portofolio-website/
+### Portfolio Website Link : https://krishraj111.github.io/PortfolioKrish/
 ## Contributing
 Contributions are welcome! Feel free to fork the project and submit pull requests.
